@@ -5,6 +5,30 @@
   text-align: center;
 }
 
+.money{
+  border: 2px solid gray;
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(72, 97, 88);
+  padding: 8px;
+  color: white;
+  font-weight: 300;
+
+}
+
+@media screen and (min-width: 600px) and(max-width: 800px) {
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
